@@ -1,0 +1,113 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+
+.container-fluid{
+    padding: 0 10%;
+    
+   
+}
+.navbar-brand{
+    font-size: 1rem;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+.navbar1{
+    height: 20px;
+    padding: 0 10%;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+}
+span{
+    color: #22A39F;
+}
+.title{
+    padding: 3% 10% 2% 10%;
+    font-size: 2.5rem;
+    font-family: boogaloo;
+}
+.title-image{
+    padding-left: 10%;
+}
+.content{
+    padding: 3% 10%;
+}
+.c-head{
+    font-size: 2.5rem;
+    font-size: 2.5rem;
+    font-family: sugarpunch;
+    padding-bottom: 20px;
+    font-weight: 800;
+
+}
+.c-list{
+    list-style: none;
+   
+}
+.c-link{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-family: oswald;
+    font-weight: 400;
+    
+
+}
+.c-para{
+    width: 750px;
+    font-size: 1.2rem;
+}
+p{
+    padding-top: 30px;
+    width: 800px;
+    font-size: 1.2rem;
+}
+.footer{
+    background-color: #22A39F;
+    text-align: center;
+    position: relative;
+    top: 18px;
+    height: 1px;
+}
+.f-p{
+    background-color: #22A39F;
+    width: 100%;
+}
+.toggle-btn{
+    border-style: none;
+    opacity: 0%;
+    background-color:#f8f9fa ;
+    
+}
+/* ion-icon {
+    font-size: px;
+  } */
+@media screen and (max-width: 600px) {
+    .toggle-btn{
+        opacity: 100%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .title-image{
+        width: 300px;
+    }
+    .c-para{
+        width: 300px;
+        font-size: 1rem;
+    }
+    p{
+        width: 300px;
+        font-size: 1rem;
+
+    }
+    
+}
